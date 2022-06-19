@@ -26,11 +26,15 @@ Then, installed node.js
 
 ## Install MongoDB
 
+Experienced a series of errors below while installing MongoDB as it appeared that Ubuntu version 22.04 does not support the MongoDB version as it populates *DEPRECATED* error
+
 ![sudo-apt-key-and-echo-deb-result.PNG](./images/sudo-apt-key-and-echo-deb-result.PNG)
 
 ![Mongo-Db-failed.PNG](./images/Mongo-Db-failed.PNG)
 
-After going through a lot of write ups, I used the steps here to address the error: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/ 
+After going through a lot of write ups to scale this blocker, I used the steps in this link to address the error: *https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/* 
+
+*installed MongoDB community edition*
 
 ![mongod-used.PNG](./images/mongod-used.PNG)
 
